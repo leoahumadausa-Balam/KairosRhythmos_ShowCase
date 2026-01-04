@@ -78,7 +78,8 @@ graph TD
     DOM --> REP
     REP --> DB[("(SQLite / Room)")]
     ACT --> UI
-    VC --> UI```
+    VC --> UI
+```
 
 ---
 
@@ -86,7 +87,7 @@ graph TD
 
 Para profundizar en las decisiones de diseño, algoritmos matemáticos y diagramas de flujo detallados, consulta el informe técnico completo:
 
-### [  LEER INFORME TÉCNICO DE INGENIERÍA (Markdown)](docs/informe_App_Kairos.pdf)
+### [  LEER INFORME TÉCNICO DE INGENIERÍA ](docs/Informe_App_Kairos.pdf)
 
 ---
 *Kairos Rhythmos - Forjado en código, templado en disciplina.*
