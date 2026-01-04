@@ -17,7 +17,7 @@
 
 | El Reloj Táctico | Modo Focus (Arena) | Edición Inteligente |
 | :---: | :---: | :---: |
-| ![Reloj](assets/transcursoTiempo.gif) | ![Focus](assets/focusTime.gif) | ![Notif](assets/notificacion.gif) |
+| ![Reloj](assets/transcursoTiempo1.gif) | ![Focus](assets/focusTime.gif) | ![Notif](assets/notificacion.gif) |
 
 ---
 
