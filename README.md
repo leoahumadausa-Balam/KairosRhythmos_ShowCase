@@ -56,38 +56,37 @@ Más allá del producto, este proyecto es una demostración técnica avanzada de
 
 ```mermaid
 graph TD
-    subgraph Common Main [Cerebro Compartido (95%)]
-        UI[Compose UI (Reloj, Screens)]
+    subgraph CommonMain ["🧠 Cerebro Compartido (95%)"]
+        UI["Compose UI (Reloj, Screens)"]
         VM[ViewModel]
         DOM[Dominio]
         REP[Repositorio]
     end
-    
-    subgraph Android Main [Músculo Android]
+
+    subgraph AndroidMain ["🤖 Músculo Android"]
         ACT[Activity]
         ALARM[AlarmManager]
     end
 
-    subgraph iOS Main [Agilidad iOS]
+    subgraph iOSMain ["🍎 Agilidad iOS"]
         VC[MainViewController]
-        NOTIF_IOS[UNUserNotificationCenter]
+        NOTIF_iOS[UNUserNotificationCenter]
     end
 
     UI --> VM
     VM --> DOM
     DOM --> REP
-    REP --> DB[(SQLite / Room)]
+    REP --> DB[("(SQLite / Room)")]
     ACT --> UI
-    VC --> UI
-```
+    VC --> UI```
 
 ---
 
-## � Documentación Detallada
+##   Documentación Detallada
 
 Para profundizar en las decisiones de diseño, algoritmos matemáticos y diagramas de flujo detallados, consulta el informe técnico completo:
 
-### [� LEER INFORME TÉCNICO DE INGENIERÍA (Markdown)](docs/INFORME_TECNICO_KAIROS.md)
+### [  LEER INFORME TÉCNICO DE INGENIERÍA (Markdown)](docs/informe_App_Kairos.pdf)
 
 ---
 *Kairos Rhythmos - Forjado en código, templado en disciplina.*
